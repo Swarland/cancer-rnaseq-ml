@@ -1,0 +1,23 @@
+name: cancer-ml
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+
+  # Data
+  - pandas
+  - numpy
+
+  # Visualization
+  - matplotlib
+
+  # Machine learning
+  - scikit-learn
+  - xgboost
+  - shap
+
+  # Notebooks
+  - jupyterlab
+  - ipykernel
