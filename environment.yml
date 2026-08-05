@@ -12,6 +12,7 @@ dependencies:
 
   # Visualization
   - matplotlib
+  - seaborn
 
   # Machine learning
   - scikit-learn
