@@ -56,24 +56,24 @@ The beeswarm plot summarizes the influence of the 10 most informative genes for 
 # Repository Structure
 
 src/
-    dataset.py
-    model.py
-    train.py
-    evaluate.py
-    optuna.py
-    utils.py
+- dataset.py
+- model.py
+- train.py
+- evaluate.py
+- optuna.py
+- utils.py
 
 notebooks/
-    01_explore_data.ipynb - load/process data, initial overview
-    02_train_model.ipynb - run different models and compare results
-    03_final_evaluation.ipynb - SHAP analysis of best performing models
+- 01_explore_data.ipynb - load/process data, initial overview
+- 02_train_model.ipynb - run different models and compare results
+- 03_final_evaluation.ipynb - SHAP analysis of best performing models
 
 data/
-    raw datasets
-    processed datasets
+- raw datasets
+- processed datasets
 
 figures/
-    plots and model outputs
+- plots and model outputs
 
 
 # How to run
