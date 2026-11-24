@@ -44,7 +44,7 @@ Random forest was selected based on its performance. We see only one misclassifi
 
 ## SHAP beeswarm plot
 
-Using SHapley Additive exPlanations (SHAP), we identify the most relevant genes for predicting BRCA across all patients. SHAP scores explain how much each feature in out models (in this case genes) push the model towards certain cancer classifications. This lets us identify genes with potential relevance for a given cancer state. Additionally the directionality of their their expression regarding the cancer can be inferred, i.e. if gene X is expressed higher that may be sign of BRCA. 
+Using SHapley Additive exPlanations (SHAP), we identify the most relevant genes for predicting BRCA across all patients. SHAP scores explain how much each feature in our models (in this case genes) push the model towards certain cancer classifications. This lets us identify genes with potential relevance for a given cancer state. Additionally the directionality of their their expression regarding the cancer can be inferred, i.e. if gene X is expressed higher that may be sign of BRCA. 
 
 
 
